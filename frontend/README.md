@@ -64,8 +64,9 @@ Este proyecto es el frontend de una aplicación construida con Angular 19 que in
     ```bash
     ng serve
     ```
-> .[!IMPORTANT].
-> Luego accede a la aplicación en tu navegador a través de http://localhost:4200.
+> [!IMPORTANT]  
+> Luego accede a la aplicación en tu navegador a través de [http://localhost:4200](http://localhost:4200).
+
 
 
 ## Rutas
@@ -79,7 +80,7 @@ Este proyecto es el frontend de una aplicación construida con Angular 19 que in
 - **/users**: Muestra la lista de usuarios. Requiere autenticación y rol de administrador.
 
 ## Autenticación
-    El sistema de autenticación está basado en JWT (JSON Web Tokens). Cuando un usuario inicia sesión con éxito, el backend envía un token JWT que se almacena en el localStorage. Este token se utiliza en las cabeceras de las solicitudes subsecuentes para autenticar al usuario. Las rutas protegidas requieren este token para acceder a los datos.
+El sistema de autenticación está basado en JWT (JSON Web Tokens). Cuando un usuario inicia sesión con éxito, el backend envía un token JWT que se almacena en el localStorage. Este token se utiliza en las cabeceras de las solicitudes subsecuentes para autenticar al usuario. Las rutas protegidas requieren este token para acceder a los datos.
 
 ### Manejo del Token:
 - **Almacenamiento** : El token se guarda en el localStorage del navegador.
