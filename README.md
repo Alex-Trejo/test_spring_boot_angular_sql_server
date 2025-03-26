@@ -19,3 +19,21 @@ El backend del proyecto fue implementado utilizando **Spring Boot 3.2.6**, junto
   - **Capa de configuración**: Configuraciones de seguridad (JWT, Spring Security, CORS) y configuración de GraphQL.
 
 Para más detalles sobre cómo ejecutar el proyecto, configuraciones y dependencias, consulta la carpeta `backend`.
+
+
+### **Frontend**
+
+El frontend del proyecto fue implementado utilizando **Angular 19**, junto con las siguientes tecnologías y herramientas:
+
+- **Angular**: Framework principal para la creación de la aplicación frontend, que sigue el patrón de arquitectura Modelo-Vista-Controlador (MVC).
+- **GraphQL**: Implementación de consultas y mutaciones con GraphQL para interactuar con el backend, proporcionando una forma eficiente y flexible de obtener datos.
+- **Apollo Client**: Cliente GraphQL utilizado para conectar con el servidor backend y gestionar las consultas y mutaciones de GraphQL en el frontend.
+- **RxJS**: Biblioteca para programación reactiva, utilizada para manejar flujos de datos asincrónicos y eventos en Angular.
+- **Angular Material**: Biblioteca de componentes UI para crear una interfaz de usuario moderna, responsiva y accesible.
+- **SCSS (Sass)**: Preprocesador CSS utilizado para el estilo de la aplicación, permitiendo una estructura modular y reutilizable del código de estilos.
+- **Guards y Interceptors**: Implementación de guards para protección de rutas y interceptores para manejar el token de autenticación (JWT) de forma segura.
+- **Formularios Reactivos (Reactive Forms)**: Manejo de formularios en Angular de forma reactiva para garantizar un control eficiente y validaciones en tiempo real.
+- **LocalStorage**: Se usa para almacenar el token JWT en el navegador del cliente una vez que el usuario ha iniciado sesión, lo que permite autenticar las solicitudes subsecuentes al backend.
+- **Arquitectura Modular**: El proyecto sigue una arquitectura modular que agrupa funcionalidades en diferentes módulos para mejorar la organización, la reutilización y el mantenimiento del código.
+
+Para más detalles sobre cómo ejecutar el proyecto, configuraciones y dependencias, consulta la carpeta `frontend`.
